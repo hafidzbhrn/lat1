@@ -1,0 +1,33 @@
+body {
+    background-color: lightblue;
+    font-family: arial;
+}
+
+h1 {
+    font-family: arial, verdana, sans-serif;
+    color: red;
+    font-size: 100px;
+    font-variant: small-caps;
+    font-style: italic;
+}
+
+p {
+    color: red;
+    text-align: center;
+}
+
+p:first-of-type {
+    color: purple;
+}
+
+p:last-of-type {
+    color: blue;
+}
+
+li:nth-child(even) a:hover {
+color: red;
+}
+
+li:nth-child(even) a {
+    color: green;
+}
